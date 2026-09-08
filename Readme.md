@@ -1,86 +1,49 @@
-# 🏠 House Price Prediction
+# 🏠 House Price Prediction System
+
+A Machine Learning based House Price Prediction project that predicts house prices using property-related features.
 
 ## 📌 Project Overview
 
-This project predicts house prices using Machine Learning. A Linear Regression model is trained on housing data to estimate house prices based on different features.
+This project uses **Linear Regression** to predict house prices from the available property features.
 
----
+The project includes:
+- Data cleaning
+- Exploratory Data Analysis
+- Machine Learning model training
+- Model evaluation
+- Actual vs Predicted visualization
+- Interactive Streamlit dashboard
+- House price prediction interface
 
-## 🎯 Objective
+## 🚀 Features
 
-- Predict house prices using Machine Learning.
-- Analyze housing data.
-- Evaluate model performance.
-- Visualize prediction results.
+- 📊 Dataset Analysis
+- 📈 Data Visualizations
+- 🤖 Linear Regression Model
+- 📉 Model Performance Evaluation
+- 🏠 House Price Prediction
+- 📋 Actual vs Predicted Price Analysis
+- 🌐 Interactive Streamlit Dashboard
 
----
-
-## 🛠 Technologies Used
+## 🛠️ Technologies Used
 
 - Python
 - Pandas
 - Matplotlib
 - Scikit-learn
+- Streamlit
 
----
+## 📂 Project Structure
 
-## 📂 Dataset
-
-Dataset File:
-
-- house_data.csv
-
----
-
-## 🤖 Machine Learning Model
-
-- Linear Regression
-
----
-
-## 📈 Model Performance
-
-- Mean Absolute Error (MAE)
-- R² Score
-
----
-
-## 📸 Project Screenshots
-
-### Actual vs Predicted House Price
-
-![Actual vs Predicted](IMAGES/actual_vs_predicted.png)
-
----
-
-## 🚀 How to Run
-
-```bash
-pip install -r requirements.txt
-python house_price_prediction.py
-```
-
----
-
-## 📁 Project Structure
-
-```
+```text
 House_Price_Prediction/
 │
 ├── house_price_prediction.py
+├── app.py
 ├── house_data.csv
-├── README.md
 ├── requirements.txt
+├── README.md
 ├── .gitignore
-├── LICENSE
+│
 └── IMAGES/
     └── actual_vs_predicted.png
-```
-
----
-
-## 👩‍💻 Author
-
-**Bristi Ray**
-
-GitHub: https://github.com/BristiV123
